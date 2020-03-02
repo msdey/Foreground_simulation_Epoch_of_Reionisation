@@ -9,9 +9,9 @@ using the flat sky approximation (Datta et al., 2007).
 The simulated images are generated using C. For this purpose the simulated images are generated in
 FITS format so that they can be analysed and different properties can be obtained from them.
 
-##Foreground Component##
+##Foreground Component
 
-###Galactic Diffused Synchrotron Emission (GDSE)### 
+**Galactic Diffused Synchrotron Emission (GDSE)**
 There are5 files for this which are:
 a) grf.c – This is the main programme and almost all the parameters are defined here. It can
 simulate the GDSE sky map for a variety of frequencies and the image can be analysed using
@@ -29,7 +29,7 @@ make grf
 If you already have a file named ‘output.fits’, then the programme will ask you whether you want
 to overwrite it. If you want to overwrite it, type ‘y’.
 
-###Extragalactic point sources###
+**Extragalactic point sources**
 For simulating the extragalactic point sources at 150 MHz, an input differential source count has
 been used (Ghosh et al., 2012).
 There are 2 files, one generating the image in FITS format while the other is used for generating
