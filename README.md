@@ -12,7 +12,7 @@ FITS format so that they can be analysed and different properties can be obtaine
 ## Foreground Component
 
 **Galactic Diffused Synchrotron Emission (GDSE)**
-There are5 files for this which are:
+There are 5 files for this which are:
 1. *grf.c* – This is the main programme and almost all the parameters are defined here. It can
 simulate the GDSE sky map for a variety of frequencies and the image can be analysed using
 SAODS9.
@@ -24,10 +24,10 @@ of image slices corresponding to different frequencies etc.
 simply use the makefile to compile and run it.
 5. *fitsprog.c*
 To compile and run the programme, one has to type the following
-'''
+---
 make grf
 ./grf input.grf output.fits
-'''
+---
 If you already have a file named ‘output.fits’, then the programme will ask you whether you want
 to overwrite it. If you want to overwrite it, type ‘y’.
 
