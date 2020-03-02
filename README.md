@@ -1,4 +1,4 @@
-# Simulation of foreground corresponding to EoR#
+# Simulation of foreground corresponding to EoR
 
 The HI 21 cm signal is one of the most comprehensive tools to probe the early universe. The signal
 that we receive on earth consists of the 21 cm signal along with noise and signals from various
