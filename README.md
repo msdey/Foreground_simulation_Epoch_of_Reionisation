@@ -25,8 +25,8 @@ simply use the makefile to compile and run it.
 5. *fitsprog.c*
 To compile and run the programme, one has to type the following
 
-*make grf
-./grf input.grf output.fits *
+*make grf*
+*./grf input.grf output.fits *
 
 If you already have a file named ‘output.fits’, then the programme will ask you whether you want
 to overwrite it. If you want to overwrite it, type ‘y’.
